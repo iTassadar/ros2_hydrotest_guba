@@ -1,0 +1,7 @@
+1. Скачать custom_service, my_package, tutorial_interfaces и переместить их в src
+2. собрать пакеты командой colcon build --packages-select (название пакета)
+или colcon build --parallel-workers 2
+3. Запустить лаунч файл командой ros2 launch src/custom_service/launch/Demo.launch.py (указан полный путь до launch файла)
+
+
+
